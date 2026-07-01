@@ -13,65 +13,49 @@ export type SocialLink = {
 
 export const profile = {
   name: "Nehemiah Hosea",
-  title: "Full-Stack Developer",
+  title: "Web Developer & Communications Specialist",
   tagline:
-    "I build fast, accessible web applications with modern tooling — from idea to production.",
+    "Computer Science student building web apps and bots, with 2+ years of experience in communications, content, and operations for NGOs and digital platforms.",
   email: "nehemiahhosea12@gmail.com",
-  location: "Remote",
+  location: "Addis Ababa, Ethiopia",
 }
 
 export const about = {
   paragraphs: [
-    "I'm a full-stack developer who enjoys turning complex problems into clean, intuitive products. I work primarily with React, TypeScript, and Node.js, and care deeply about performance, accessibility, and developer experience.",
-    "When I'm not shipping features, I'm exploring new tools, contributing to side projects, and continuously sharpening my craft.",
+    "I'm a Computer Science student at Unity University and a communications professional who enjoys building practical web applications and automation tools. I currently serve as Communications & Media Officer at Enderase Youth Association, where I also manage the organization's website and digital presence.",
+    "I work with JavaScript, Node.js, and Tailwind CSS to build websites and Telegram bots, and I bring a strong background in content creation, SEO writing, and operations. I care about clean, reliable solutions that help teams and communities run more smoothly.",
   ],
   skills: [
-    "TypeScript",
-    "React",
+    "JavaScript",
     "Node.js",
     "Tailwind CSS",
-    "PostgreSQL",
-    "Next.js",
+    "HTML & CSS",
+    "Telegram Bot API",
+    "WordPress",
+    "SEO & Content Writing",
     "Git",
-    "REST APIs",
   ],
 }
 
 export const socials: SocialLink[] = [
   { label: "GitHub", href: "https://github.com/nehemiah3" },
   { label: "LinkedIn", href: "https://www.linkedin.com/" },
+  { label: "Email", href: "mailto:nehemiahhosea12@gmail.com" },
 ]
 
 export const projects: Project[] = [
   {
-    title: "TaskFlow",
+    title: "Enderase Membership Bot",
     description:
-      "A collaborative task manager with real-time updates, drag-and-drop boards, and team workspaces.",
-    tags: ["React", "TypeScript", "WebSockets", "PostgreSQL"],
-    liveUrl: "#",
-    repoUrl: "#",
+      "A Telegram bot that automates membership registration and management for Enderase Youth Association, streamlining onboarding and member communications.",
+    tags: ["Node.js", "JavaScript", "Telegram Bot API"],
+    repoUrl: "https://github.com/nehemiah3/Enderase_Membership_Bot",
   },
   {
-    title: "DevNotes",
+    title: "Enderase Youth Association Website",
     description:
-      "A markdown-first note-taking app for developers with code syntax highlighting and instant search.",
-    tags: ["Next.js", "Tailwind CSS", "Prisma"],
-    liveUrl: "#",
-    repoUrl: "#",
-  },
-  {
-    title: "WeatherWise",
-    description:
-      "A clean weather dashboard aggregating multiple forecast APIs with saved locations and charts.",
-    tags: ["React", "Vite", "REST APIs", "Recharts"],
-    liveUrl: "#",
-    repoUrl: "#",
-  },
-  {
-    title: "ShopKit",
-    description:
-      "A headless e-commerce starter with cart, checkout, and Stripe payments ready out of the box.",
-    tags: ["Node.js", "Stripe", "TypeScript"],
+      "The official website for Enderase Youth Association, built to showcase the organization's programs, events, and updates with a clean, responsive design.",
+    tags: ["Node.js", "Tailwind CSS", "HTML"],
     liveUrl: "#",
     repoUrl: "#",
   },
