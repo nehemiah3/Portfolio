@@ -59,4 +59,12 @@ export const projects: Project[] = [
     liveUrl: "#",
     repoUrl: "#",
   },
+  {
+    title: "Enderase Youth Association Website",
+    description:
+      "The official website for Enderase Youth Association, built to showcase the organization's programs, events, and updates with a clean, responsive design.",
+    tags: ["Node.js", "Tailwind CSS", "HTML"],
+    liveUrl: "#",
+    repoUrl: "#",
+  },
 ]
