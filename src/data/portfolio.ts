@@ -39,7 +39,7 @@ export const about = {
 
 export const socials: SocialLink[] = [
   { label: "GitHub", href: "https://github.com/nehemiah3" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/nehemiah-hosea-72060b209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
   { label: "Email", href: "mailto:nehemiahhosea12@gmail.com" },
 ]
 
